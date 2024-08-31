@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.esquerda {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(18, 221, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card h1 {
+    font-size: 50px;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.card button {
+    background: none;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 h1 {
+    color: rgb(18, 221, 187);
+    font-size: 50px;
+}
+
+.card2 {
+    font-size: 23px;
+
+}
+
+.imputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imputs input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: #ecf0ef;
+    padding: 15px;
+    font-size:20px ;
+}
+.card2 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(18, 221, 187);
+    border: none ;
+    margin-top:20px ;
+}

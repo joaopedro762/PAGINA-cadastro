@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: purple;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.t-esquerdo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.t-direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+
+.meio {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.icone {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.texto {
+    background: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fim {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#btn-esquerdo {
+    background: yellow;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    transition: all 300ms ease-in-out;
+}
+
+#btn-esquerdo:hover {
+    border: 1px solid red;
+    border-radius: 9px;
+
+}
+
+
+#btn-direito {
+    background: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+#btn-direito:hover {
+    border: 1px solid rgb(6, 238, 6);
+    border-radius: 8px;
+}
+
+.botoes {
+    gap: 10px;
+    display: flex;
+}
+
+.footer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+.footer i{
+    font-size: 28px;
+    color: red;
+    transition: all 300 ms ease;
+}
+.footer i:hover{
+    color: blue;
+}
+.icones{
+    display: flex;
+    gap: 10px;
+}
